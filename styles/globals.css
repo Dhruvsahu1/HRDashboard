@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improved base styles for dark mode */
+body {
+  background: linear-gradient(135deg, #18181b 0%, #23272f 100%);
+  color: #f3f4f6;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Card shadow and rounded corners */
+.card {
+  background: #23272f;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.25);
+  padding: 1.5rem;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+}
+
+/* Button styles */
+.btn {
+  border-radius: 0.5rem;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+}
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+.btn-success {
+  background: #22c55e;
+  color: #fff;
+}
+.btn-success:hover {
+  background: #16a34a;
+}
+.btn-secondary {
+  background: #334155;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background: #1e293b;
+}
+
+/* Input styles */
+input, select {
+  background: #18181b;
+  color: #f3f4f6;
+  border: 1px solid #334155;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  transition: border 0.15s;
+}
+input:focus, select:focus {
+  border: 1.5px solid #2563eb;
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+  accent-color: #2563eb;
+}
+
+/* Star rating */
+.star {
+  color: #fbbf24;
+  font-size: 1.25rem;
+  margin-right: 0.1rem;
+}
+.star-empty {
+  color: #334155;
+}
+
+/* Department badge */
+.badge {
+  background: #334155;
+  color: #fbbf24;
+  border-radius: 0.5rem;
+  padding: 0.15rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}

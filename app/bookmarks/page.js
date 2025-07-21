@@ -1,4 +1,3 @@
-// app/bookmarks/page.js
 'use client';
 import { useBookmarks } from '../../hooks/useBookmarks';
 import Card from '../../components/Card';

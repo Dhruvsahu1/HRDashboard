@@ -1,4 +1,4 @@
-// components/FilterDropdown.js
+
 'use client';
 import { useMemo } from 'react';
 
@@ -31,7 +31,6 @@ export default function FilterDropdown({ users = [], filters, setFilters }) {
 
   return (
     <div className="flex gap-4">
-      {/* Department Filter */}
       <div>
         <div className="font-semibold text-sm mb-1">Department</div>
         <div className="flex flex-wrap gap-2">
@@ -48,7 +47,7 @@ export default function FilterDropdown({ users = [], filters, setFilters }) {
           ))}
         </div>
       </div>
-      {/* Rating Filter */}
+     
       <div>
         <div className="font-semibold text-sm mb-1">Rating</div>
         <div className="flex gap-2">

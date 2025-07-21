@@ -1,4 +1,4 @@
-// components/Card.js
+
 'use client';
 import Link from 'next/link';
 import RatingStars from './RatingStars';

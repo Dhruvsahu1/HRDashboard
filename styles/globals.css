@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
 html {
   scroll-behavior: smooth;
 }
 
-/* Improved base styles for dark mode */
+
 body {
   background: linear-gradient(135deg, #18181b 0%, #23272f 100%);
   color: #f3f4f6;
@@ -14,7 +18,7 @@ body {
   min-height: 100vh;
 }
 
-/* Card shadow and rounded corners */
+
 .card {
   background: #23272f;
   border-radius: 1rem;
@@ -27,7 +31,7 @@ body {
   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
 }
 
-/* Button styles */
+
 .btn {
   border-radius: 0.5rem;
   font-weight: 600;
@@ -57,7 +61,6 @@ body {
   background: #1e293b;
 }
 
-/* Input styles */
 input, select {
   background: #18181b;
   color: #f3f4f6;
@@ -72,12 +75,12 @@ input:focus, select:focus {
   border: 1.5px solid #2563eb;
 }
 
-/* Checkbox styles */
+
 input[type="checkbox"] {
   accent-color: #2563eb;
 }
 
-/* Star rating */
+
 .star {
   color: #fbbf24;
   font-size: 1.25rem;
@@ -87,7 +90,7 @@ input[type="checkbox"] {
   color: #334155;
 }
 
-/* Department badge */
+
 .badge {
   background: #334155;
   color: #fbbf24;

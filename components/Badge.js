@@ -1,4 +1,3 @@
-// components/Badge.js
 'use client';
 
 export default function Badge({ children, color = 'blue' }) {

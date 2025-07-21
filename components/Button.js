@@ -1,4 +1,3 @@
-// components/Button.js
 'use client';
 
 export default function Button({

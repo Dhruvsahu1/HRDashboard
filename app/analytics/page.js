@@ -1,4 +1,3 @@
-// app/analytics/page.js
 'use client';
 import { useEffect, useState } from 'react';
 import { Bar, Line } from 'react-chartjs-2';
@@ -21,7 +20,6 @@ function getDepartmentAverages(users) {
 }
 
 function getMockBookmarkTrends() {
-  // Mocked data for 7 days
   return [2, 4, 6, 8, 7, 10, 12];
 }
 

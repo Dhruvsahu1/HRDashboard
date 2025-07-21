@@ -22,13 +22,6 @@ export default function Navbar() {
         <Link href="/bookmarks" className="hover:underline">Bookmarks</Link>
         <Link href="/analytics" className="hover:underline">Analytics</Link>
       </div>
-      <button
-        className="px-3 py-1 rounded bg-gray-200 dark:bg-gray-700"
-        onClick={() => setDark((d) => !d)}
-        aria-label="Toggle dark mode"
-      >
-        {dark ? '🌙' : '☀️'}
-      </button>
     </nav>
   );
 }

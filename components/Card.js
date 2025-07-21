@@ -11,7 +11,7 @@ export default function Card({ user }) {
   const bookmarked = isBookmarked(user.id);
 
   return (
-    <div className="card flex flex-col gap-6 max-w-2xl border border-gray-600 p-8">
+    <div className="card flex flex-col gap-6 max-w-2xl border bg-gray-500 rounded-md border-gray-600 p-8">
       <div className="flex items-center gap-3">
         <img
           src={user.image || `https://randomuser.me/api/portraits/men/${user.id}.jpg`}
